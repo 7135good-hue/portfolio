@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>송혜빈 | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 네비게이션 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-text">HB</span>
+        <span class="logo-dot"></span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">소개</a></li>
+        <li><a href="#projects">프로젝트</a></li>
+        <li><a href="#contact">연락하기</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 히어로 섹션 -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">안녕하세요 👋</p>
+      <h1 class="hero-title">
+        저는 <span class="highlight">송혜빈</span>입니다
+      </h1>
+      <p class="hero-subtitle">AI 융합학부 학부생 | 한국성서대학교</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+        <a href="#contact" class="btn btn-secondary">연락하기</a>
+      </div>
+    </div>
+    <div class="hero-decoration">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+      <div class="circle circle-3"></div>
+    </div>
+  </section>
+
+  <!-- 소개 섹션 -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      
+      <!-- 자기소개 글 -->
+      <div class="about-intro">
+        <div class="about-intro-content">
+          <p class="intro-text">
+            안녕하세요.<br>
+            한국성서대학교 AI 융합학부에서 공부하고 있는 <strong>송혜빈</strong>입니다.
+          </p>
+          <p class="intro-text">
+            저는 기술이 사람의 일상과 사회를 더 나은 방향으로 변화시킬 수 있다는 믿음으로 AI 분야를 공부하고 있습니다. 
+            학부 과정에서 머신러닝·데이터분석·프로그래밍을 배우며 단순히 기술을 사용하는 것을 넘어, 
+            문제를 관찰하고 스스로 해결 방식을 설계하는 과정에 큰 흥미를 느끼게 되었습니다.
+          </p>
+          <p class="intro-text">
+            앞으로는 더 깊은 기술 역량을 갖추기 위해 웹 개발과 AI 모델 활용 능력을 발전시키고, 
+            실제 문제 해결에 적용할 수 있는 실용적인 프로젝트들을 만들어 나가고 싶습니다.
+          </p>
+          <p class="intro-text">
+            또한 협업 과정에서 의견을 조율하고 함께 성장하는 경험을 좋아하기 때문에 
+            다양한 사람들과 함께 의미 있는 결과물을 만드는 개발자가 되는 것이 제 목표입니다.
+          </p>
+        </div>
+      </div>
+
+      <!-- 정보 카드들 -->
+      <div class="about-content">
+        <div class="about-card">
+          <div class="about-icon">🎓</div>
+          <h3>학력</h3>
+          <p>한국성서대학교</p>
+          <p>AI 융합학부 재학 중</p>
+          <p class="editable-placeholder">[졸업 예정 연도를 입력하세요]</p>
+        </div>
+        
+        <div class="about-card">
+          <div class="about-icon">💡</div>
+          <h3>관심 분야</h3>
+          <ul class="interest-list">
+            <li>인공지능</li>
+            <li>소프트웨어</li>
+            <li class="editable-placeholder">[추가 관심 분야 1]</li>
+            <li class="editable-placeholder">[추가 관심 분야 2]</li>
+          </ul>
+        </div>
+        
+        <div class="about-card">
+          <div class="about-icon">📚</div>
+          <h3>공부 / 경험</h3>
+          <ul class="experience-list">
+            <li>Cursor를 이용한 웹사이트 개발</li>
+            <li class="editable-placeholder">[추가 경험 1]</li>
+            <li class="editable-placeholder">[추가 경험 2]</li>
+            <li class="editable-placeholder">[추가 경험 3]</li>
+          </ul>
+        </div>
+        
+        <div class="about-card">
+          <div class="about-icon">🛠️</div>
+          <h3>기술 스택</h3>
+          <div class="skills-container">
+            <span class="skill-tag editable-placeholder">[기술 1]</span>
+            <span class="skill-tag editable-placeholder">[기술 2]</span>
+            <span class="skill-tag editable-placeholder">[기술 3]</span>
+            <span class="skill-tag editable-placeholder">[기술 4]</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 추가 정보 섹션 -->
+      <div class="about-extra">
+        <h3 class="extra-title">추가 정보</h3>
+        <div class="extra-grid">
+          <div class="extra-item">
+            <span class="extra-label">🏆 수상/자격증</span>
+            <p class="editable-placeholder">[수상 경력이나 자격증을 입력하세요]</p>
+          </div>
+          <div class="extra-item">
+            <span class="extra-label">🌐 외국어</span>
+            <p class="editable-placeholder">[외국어 능력을 입력하세요]</p>
+          </div>
+          <div class="extra-item">
+            <span class="extra-label">📖 활동/동아리</span>
+            <p class="editable-placeholder">[활동이나 동아리 경험을 입력하세요]</p>
+          </div>
+          <div class="extra-item">
+            <span class="extra-label">✨ 한 줄 각오</span>
+            <p class="editable-placeholder">[나만의 각오나 좌우명을 입력하세요]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 프로젝트 섹션 -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">제가 진행한 프로젝트들입니다</p>
+      <div class="projects-grid" id="projects-container">
+        <!-- 프로젝트 카드가 JavaScript로 동적 생성됩니다 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact 섹션 -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">궁금한 점이 있으시면 연락해 주세요</p>
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <label for="name">이름</label>
+          <input type="text" id="name" name="name" placeholder="이름을 입력하세요" required>
+        </div>
+        <div class="form-group">
+          <label for="email">이메일</label>
+          <input type="email" id="email" name="email" placeholder="이메일을 입력하세요" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">제목</label>
+          <input type="text" id="subject" name="subject" placeholder="제목을 입력하세요" required>
+        </div>
+        <div class="form-group">
+          <label for="message">메시지</label>
+          <textarea id="message" name="message" rows="5" placeholder="메시지를 입력하세요" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-submit">
+          <span>보내기</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">© 2024 송혜빈. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="mailto:henne2120@bible.ac.kr" class="footer-link" title="이메일 보내기">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+          <a href="#" class="footer-link editable-placeholder" title="GitHub 링크를 추가하세요">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

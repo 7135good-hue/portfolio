@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "프로젝트 제목을 입력하세요",
+    "description": "프로젝트에 대한 설명을 입력하세요. 어떤 문제를 해결했는지, 어떤 기술을 사용했는지 작성해 주세요.",
+    "tags": ["사용 기술 1", "사용 기술 2", "사용 기술 3"],
+    "image": "https://via.placeholder.com/400x250/E8F4F8/5B8A9A?text=Project+1",
+    "link": "https://github.com/your-username/project1"
+  },
+  {
+    "id": 2,
+    "title": "두 번째 프로젝트 제목",
+    "description": "두 번째 프로젝트에 대한 설명입니다. 프로젝트의 목적과 결과물을 기재해 주세요.",
+    "tags": ["사용 기술 1", "사용 기술 2"],
+    "image": "https://via.placeholder.com/400x250/FDF2F8/9A5B7A?text=Project+2",
+    "link": "https://github.com/your-username/project2"
+  }
+]
